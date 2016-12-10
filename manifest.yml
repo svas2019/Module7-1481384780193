@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Module7
+  host: Module7
+  disk_quota: 1024M
+  services:
+  - Module7-cloudantNoSQLDB
